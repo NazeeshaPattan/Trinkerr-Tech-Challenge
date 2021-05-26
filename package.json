@@ -10,9 +10,18 @@
   "author": "nazeesha",
   "license": "ISC",
   "dependencies": {
+    "@vonage/server-sdk": "^2.10.8",
+    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "json-web-token": "^3.2.0",
-    "mongoose": "^5.12.11"
+    "mongoose": "^5.12.11",
+    "sendotp": "^1.2.9",
+    "springedge": "^1.0.6",
+    "uuid": "^8.3.2",
+    "validator": "^13.6.0"
   }
 }
