@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const { isEmail } = require("validator");
 
 const Userschema = new mongoose.Schema({
   mobile: {
@@ -9,3 +8,7 @@ const Userschema = new mongoose.Schema({
     type: String,
   },
 });
+//Export our schema, this reference will be used in other models
+const User = mongoose.model("User", Userschema);
+
+module.exports = User;
