@@ -6,7 +6,9 @@ const Userschema = new mongoose.Schema({
   },
   otp: {
     type: String,
+    default: "0000",
   },
+  username: {},
 });
 //Export our schema, this reference will be used in other models
 const User = mongoose.model("User", Userschema);

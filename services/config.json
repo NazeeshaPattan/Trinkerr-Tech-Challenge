@@ -1,4 +1,5 @@
 {
   "from":"Vonage APIs",
-  "smsText" : "Please use this otp to signin to your account.."
+  "smsText" : "Please use this otp to signin to your account..",
+  "jwtsecret":"lsavcnDSAsc"
 }
